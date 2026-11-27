@@ -1,9 +1,8 @@
 ---
 title: 潲雨
-categories: poem
+categories: 诗
 tags:
-  - poem
-  - literacy
+  - 现代诗
 author: 魏歪
 date: 2024-09-30 23:51:00
 updated: 2024-09-30 23:51:00

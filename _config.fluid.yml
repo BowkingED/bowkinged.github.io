@@ -750,11 +750,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: giscus
 
 
 #---------------------------
@@ -898,7 +898,7 @@ giscus:
   repo: BowkingED/bowkinged.github.io
   repo-id: R_kgDOEIYAhA
   category: Announcements
-  category-id: # 开启 Discussions 并安装 giscus app 后填入，见 README 或提交记录
+  category-id: DIC_kwDOEIYAhM4DMHdW # Announcements
   theme-light: light
   theme-dark: dark
   mapping: pathname
@@ -1054,11 +1054,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: giscus
 
 
 #---------------------------
