@@ -372,6 +372,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "collections", link: "/collections/", name: "书影音" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
@@ -894,10 +895,10 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo:
-  repo-id:
-  category:
-  category-id:
+  repo: BowkingED/bowkinged.github.io
+  repo-id: R_kgDOEIYAhA
+  category: Announcements
+  category-id: # 开启 Discussions 并安装 giscus app 后填入，见 README 或提交记录
   theme-light: light
   theme-dark: dark
   mapping: pathname
@@ -1032,19 +1033,13 @@ links:
   banner_mask_alpha: 0.4
   # 友链的成员项
   # Member item of page
-  items:
-    - {
-      title: "春秋的小站",
-      intro: "春秋春秋春",
-      link: "https://code.cq.cn/",
-      avatar: "/img/links/code.cq.cn.png"
-    }
-    - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
-    }
+  items: []
+    # - {
+    #   title: "博客名",
+    #   intro: "一句话简介",
+    #   link: "https://example.com",
+    #   avatar: "https://example.com/avatar.jpg"
+    # }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
@@ -1054,7 +1049,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
+    content: '<hr><p>想交换友链？在下方留言，或发邮件到 bowkinged0123@hotmail.com，写明：博客名、一句话简介、链接、头像地址。</p>'
 
   # 评论插件
   # Comment plugin
